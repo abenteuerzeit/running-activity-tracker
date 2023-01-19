@@ -6,3 +6,5 @@
 /obj
 /RunningActivityTracker/obj/Debug/net6.0
 /RunningActivityTracker/bin/Debug/net6.0
+/RunningActivityTracker/obj/project.nuget.cache
+/RunningActivityTracker/obj/RunningActivityTracker.csproj.nuget.dgspec.json
