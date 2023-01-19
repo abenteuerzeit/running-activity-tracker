@@ -18,7 +18,7 @@ namespace RunningActivityTracker.Controllers
         }
 
         [HttpPost("/team")]
-        // add auhtorization here
+        [Authorize(Roles = "TeamAdmin")]
         public ActionResult CreateTeam([FromBody] string teamName)
         {
             _teamService.CreateTeam(teamName);
@@ -26,7 +26,7 @@ namespace RunningActivityTracker.Controllers
         }
 
         [HttpPut("/team/members")]
-        // add authorization here
+        [Authorize(Roles = "TeamAdmin")]
         public ActionResult AddMember([FromBody] string memberName)
         {
             _teamService.AddMember(memberName);

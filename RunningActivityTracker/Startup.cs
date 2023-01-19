@@ -28,6 +28,12 @@ namespace RunningActivityTracker
             services.AddControllers();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             // add your services and repositories registrations here
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ITeamService, TeamService>();
+            services.AddScoped<ITeamRepository, TeamRepository>();
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "RunningActivityTracker", Version = "v1" });
