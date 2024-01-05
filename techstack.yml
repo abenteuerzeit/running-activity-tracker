@@ -1,7 +1,8 @@
 repo_name: abenteuerzeit/running-activity-tracker
 report_id: c1a1a3b4952b0b82e6993a3afe2b0599
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-12T10:22:54+00:00'
+timestamp: '2024-01-05T08:48:59+00:00'
 requested_by: abenteuerzeit
 provider: github
 branch: development
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/abenteuerzeit/running-activity-tracker
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -27,6 +29,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/abenteuerzeit/running-activity-tracker/blob/development/RunningActivityTracker/RunningActivityTracker.csproj
   detection_source: RunningActivityTracker/RunningActivityTracker.csproj
   last_updated_by: appuser
   last_updated_on: 2023-01-19 04:06:15.000000000 Z
@@ -41,7 +44,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
-  detection_source_url: RunningActivityTracker/RunningActivityTracker.csproj
+  detection_source_url: https://github.com/abenteuerzeit/running-activity-tracker/blob/development/RunningActivityTracker/RunningActivityTracker.csproj
   detection_source: RunningActivityTracker/RunningActivityTracker.csproj
   last_updated_by: appuser
   last_updated_on: 2023-01-19 04:06:15.000000000 Z
@@ -56,7 +59,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
-  detection_source_url: RunningActivityTracker/RunningActivityTracker.csproj
+  detection_source_url: https://github.com/abenteuerzeit/running-activity-tracker/blob/development/RunningActivityTracker/RunningActivityTracker.csproj
   detection_source: RunningActivityTracker/RunningActivityTracker.csproj
   last_updated_by: appuser
   last_updated_on: 2023-01-19 04:06:15.000000000 Z
@@ -68,6 +71,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/abenteuerzeit/running-activity-tracker
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -77,6 +81,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/abenteuerzeit/running-activity-tracker/blob/development/RunningActivityTracker/RunningActivityTracker.csproj
   detection_source: RunningActivityTracker/RunningActivityTracker.csproj
   last_updated_by: appuser
   last_updated_on: 2023-01-19 04:06:15.000000000 Z
@@ -89,6 +94,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/abenteuerzeit/running-activity-tracker/blob/development/RunningActivityTracker.sln
   detection_source: RunningActivityTracker.sln
   last_updated_by: appuser
   last_updated_on: 2023-01-19 04:06:15.000000000 Z
@@ -102,7 +108,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12981/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
-  detection_source_url: RunningActivityTracker/obj/project.assets.json
+  detection_source_url: https://github.com/abenteuerzeit/running-activity-tracker/blob/development/RunningActivityTracker/obj/project.assets.json
   detection_source: RunningActivityTracker/RunningActivityTracker.csproj
   last_updated_by: appuser
   last_updated_on: 2023-01-19 04:06:15.000000000 Z
